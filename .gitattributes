@@ -1,0 +1,2 @@
+# Mark index.json as generated so it's collapsed in PR diffs
+index.json linguist-generated=true

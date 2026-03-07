@@ -1,0 +1,55 @@
+name: Validate PR
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check for manual index.json changes
+        run: |
+          if git diff --name-only origin/main...HEAD | grep -q '^index\.json$'; then
+            echo "::error::Do not modify index.json manually. It is auto-generated on merge from atlas metadata."
+            echo ""
+            echo "index.json is regenerated automatically by CI when changes to atlases/ are merged."
+            echo "Please remove index.json from your PR."
+            exit 1
+          fi
+
+      - name: Validate atlas structure
+        run: python3 .github/scripts/validate_atlases.py
+
+      - name: Scan for zip bombs and path traversal
+        run: python3 .github/scripts/security_scan.py
+
+      - name: Verify images are valid
+        run: python3 .github/scripts/validate_images.py
+
+  virus-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ClamAV
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq clamav
+
+      - name: Update virus definitions
+        run: |
+          sudo systemctl stop clamav-freshclam || true
+          sudo freshclam || true
+
+      - name: Scan repository
+        run: |
+          clamscan --recursive --infected --alert-exceeds-max=yes \
+            --max-filesize=10M --max-scansize=50M \
+            --max-files=500 --max-recursion=5 \
+            atlases/
+          echo "ClamAV scan passed"
