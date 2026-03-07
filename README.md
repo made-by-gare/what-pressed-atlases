@@ -4,6 +4,14 @@ Community-shared atlas repository for [What Pressed](https://github.com/made-by-
 
 Browse and install these atlases directly from the app via **Atlas Builder > Browse Community**.
 
+## License
+
+All atlases in this repository are licensed under [CC BY-SA 4.0](LICENSE). By submitting an atlas, you agree that:
+
+- Your work is released under CC BY-SA 4.0
+- Others may fork, modify, and redistribute your atlas (with attribution)
+- Derivative works must use the same license
+
 ## Submitting an Atlas
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.

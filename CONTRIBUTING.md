@@ -2,6 +2,17 @@
 
 Thanks for sharing your atlas with the What Pressed community!
 
+## License Agreement
+
+All atlases in this repository are licensed under [CC BY-SA 4.0](LICENSE). By opening a pull request, you agree that:
+
+- You have the rights to share the content you're submitting
+- Your atlas is released under CC BY-SA 4.0
+- Others may fork, modify, and redistribute your atlas with attribution
+- Derivative works must be shared under the same license
+
+If your atlas is based on another community atlas, include an `"origin"` field in your `atlas.json` referencing the original (see below).
+
 ## Submission Format
 
 Each atlas lives in its own directory under `atlases/`:
@@ -38,6 +49,18 @@ Your `atlas.json` must include these fields:
 - **semver** is your atlas release version (semver format: `1.0.0`)
 - **description** and **author** are shown in the community browser
 - **entries** is the standard What Pressed atlas entry format
+
+If your atlas is based on or derived from another community atlas, add an `"origin"` field:
+
+```json
+{
+  "name": "wasd-keys-neon",
+  "origin": "wasd-keys",
+  ...
+}
+```
+
+The app will automatically link back to the original atlas when displaying your fork.
 
 ### Requirements
 

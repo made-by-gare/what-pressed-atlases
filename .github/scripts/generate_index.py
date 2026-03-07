@@ -28,7 +28,7 @@ def process_atlas(name: str) -> dict | None:
     thumbnail_path = os.path.join(atlas_dir, "thumbnail.png")
     has_thumbnail = os.path.isfile(thumbnail_path)
 
-    return {
+    entry = {
         "name": name,
         "display_name": atlas.get("name", name).replace("-", " ").title(),
         "description": description,
@@ -38,6 +38,12 @@ def process_atlas(name: str) -> dict | None:
         "entry_count": len(atlas.get("entries", [])),
         "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
+
+    origin = atlas.get("origin")
+    if origin:
+        entry["origin"] = origin
+
+    return entry
 
 
 def main():
