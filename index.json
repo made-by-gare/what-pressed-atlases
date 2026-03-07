@@ -1,4 +1,15 @@
 {
   "version": 1,
-  "atlases": []
+  "atlases": [
+    {
+      "name": "wobbly-goofy-keys",
+      "display_name": "Wobbly Goofy Keys",
+      "description": "Wobbly looking keys in silly colors, mostly for testing...",
+      "author": "madebygare",
+      "version": "1.0.0",
+      "thumbnail_url": "atlases/wobbly-goofy-keys/thumbnail.png",
+      "entry_count": 103,
+      "updated_at": "2026-03-07T23:07:13Z"
+    }
+  ]
 }
