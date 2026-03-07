@@ -12,6 +12,7 @@ MAX_IMAGE_SIZE_MB = 2
 NAME_PATTERN = re.compile(r"^[a-z0-9][a-z0-9\-]*[a-z0-9]$|^[a-z0-9]$")
 SEMVER_PATTERN = re.compile(r"^\d+\.\d+\.\d+$")
 ALLOWED_IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".webp"}
+ALLOWED_INPUT_TYPES = {"Key", "MouseButton", "GamepadButton", "GamepadAxis"}
 
 errors: list[str] = []
 
@@ -93,6 +94,27 @@ def validate_atlas(name: str):
         for field in ["id", "input_id", "label", "pressed_image", "unpressed_image"]:
             if field not in entry:
                 error(f"{name}: entries[{i}] missing field '{field}'")
+
+        # Validate input_id structure: must be {"type": "...", "value": "..."}
+        input_id = entry.get("input_id")
+        if isinstance(input_id, dict):
+            if "type" not in input_id or "value" not in input_id:
+                error(
+                    f"{name}: entries[{i}].input_id must have 'type' and 'value' "
+                    f"fields (got {json.dumps(input_id)})"
+                )
+            elif input_id["type"] not in ALLOWED_INPUT_TYPES:
+                error(
+                    f"{name}: entries[{i}].input_id.type must be one of "
+                    f"{sorted(ALLOWED_INPUT_TYPES)} (got '{input_id['type']}')"
+                )
+            elif not isinstance(input_id.get("value"), str):
+                error(f"{name}: entries[{i}].input_id.value must be a string")
+        elif input_id is not None:
+            error(
+                f"{name}: entries[{i}].input_id must be an object with "
+                f"'type' and 'value' fields"
+            )
 
         for img_field in ["pressed_image", "unpressed_image"]:
             img = entry.get(img_field, "")

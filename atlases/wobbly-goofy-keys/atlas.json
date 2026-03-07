@@ -8,7 +8,8 @@
     {
       "id": "488cf786-9ca8-47a6-a692-42cfd22dca2b",
       "input_id": {
-        "Key": "Escape"
+        "type": "Key",
+        "value": "Escape"
       },
       "label": "ESC",
       "pressed_image": "Escape_dn.png",
@@ -19,7 +20,8 @@
     {
       "id": "1065b546-e677-4d18-a2eb-df6818bc1c81",
       "input_id": {
-        "Key": "F1"
+        "type": "Key",
+        "value": "F1"
       },
       "label": "F1",
       "pressed_image": "F1_dn.png",
@@ -30,7 +32,8 @@
     {
       "id": "6b802dd4-4221-46ff-a6b2-c8729e170eda",
       "input_id": {
-        "Key": "F2"
+        "type": "Key",
+        "value": "F2"
       },
       "label": "F2",
       "pressed_image": "F2_dn.png",
@@ -41,7 +44,8 @@
     {
       "id": "38d6a6d0-20a7-46c9-8f26-223637b559c9",
       "input_id": {
-        "Key": "F3"
+        "type": "Key",
+        "value": "F3"
       },
       "label": "F3",
       "pressed_image": "F3_dn.png",
@@ -52,7 +56,8 @@
     {
       "id": "5d95b715-8b87-4896-9f0a-f0aa8f11e44e",
       "input_id": {
-        "Key": "F4"
+        "type": "Key",
+        "value": "F4"
       },
       "label": "F4",
       "pressed_image": "F4_dn.png",
@@ -63,7 +68,8 @@
     {
       "id": "840a1da9-4bd6-4f7f-a550-d0157411939a",
       "input_id": {
-        "Key": "F5"
+        "type": "Key",
+        "value": "F5"
       },
       "label": "F5",
       "pressed_image": "F5_dn.png",
@@ -74,7 +80,8 @@
     {
       "id": "5601a51a-1a22-428c-a74e-f824fa2336d2",
       "input_id": {
-        "Key": "F6"
+        "type": "Key",
+        "value": "F6"
       },
       "label": "F6",
       "pressed_image": "F6_dn.png",
@@ -85,7 +92,8 @@
     {
       "id": "6d5f2b1c-1c49-4cd8-a3b2-a7a8b4efd541",
       "input_id": {
-        "Key": "F7"
+        "type": "Key",
+        "value": "F7"
       },
       "label": "F7",
       "pressed_image": "F7_dn.png",
@@ -96,7 +104,8 @@
     {
       "id": "93a533c8-18df-411f-b93b-e91b081dba24",
       "input_id": {
-        "Key": "F8"
+        "type": "Key",
+        "value": "F8"
       },
       "label": "F8",
       "pressed_image": "F8_dn.png",
@@ -107,7 +116,8 @@
     {
       "id": "305079a6-2a68-4024-b38e-dfcb988aa5c4",
       "input_id": {
-        "Key": "F9"
+        "type": "Key",
+        "value": "F9"
       },
       "label": "F9",
       "pressed_image": "F9_dn.png",
@@ -118,7 +128,8 @@
     {
       "id": "08964991-5a52-4f00-86cd-9f7ad0dfe8fb",
       "input_id": {
-        "Key": "F10"
+        "type": "Key",
+        "value": "F10"
       },
       "label": "F10",
       "pressed_image": "F10_dn.png",
@@ -129,7 +140,8 @@
     {
       "id": "0f72e326-f389-4b13-aae4-1c62f049dae9",
       "input_id": {
-        "Key": "F11"
+        "type": "Key",
+        "value": "F11"
       },
       "label": "F11",
       "pressed_image": "F11_dn.png",
@@ -140,7 +152,8 @@
     {
       "id": "c121b5be-ea52-4e0c-ae18-c1d3c820d9dd",
       "input_id": {
-        "Key": "F12"
+        "type": "Key",
+        "value": "F12"
       },
       "label": "F12",
       "pressed_image": "F12_dn.png",
@@ -151,7 +164,8 @@
     {
       "id": "4bf2fe75-db4a-412f-9795-9128ab05acdb",
       "input_id": {
-        "Key": "BackQuote"
+        "type": "Key",
+        "value": "BackQuote"
       },
       "label": "`",
       "pressed_image": "BackQuote_dn.png",
@@ -162,7 +176,8 @@
     {
       "id": "56de1d96-451b-4c1b-8b0c-26e6e255e93d",
       "input_id": {
-        "Key": "Num1"
+        "type": "Key",
+        "value": "Num1"
       },
       "label": "1",
       "pressed_image": "Num1_dn.png",
@@ -173,7 +188,8 @@
     {
       "id": "7ea97441-f376-4901-a2fd-9dc95e01bc60",
       "input_id": {
-        "Key": "Num2"
+        "type": "Key",
+        "value": "Num2"
       },
       "label": "2",
       "pressed_image": "Num2_dn.png",
@@ -184,7 +200,8 @@
     {
       "id": "451532ad-bc48-4844-b40e-282f03f2ba4e",
       "input_id": {
-        "Key": "Num3"
+        "type": "Key",
+        "value": "Num3"
       },
       "label": "3",
       "pressed_image": "Num3_dn.png",
@@ -195,7 +212,8 @@
     {
       "id": "8ce6d1da-fb06-47db-8b78-5faebeacc3fd",
       "input_id": {
-        "Key": "Num4"
+        "type": "Key",
+        "value": "Num4"
       },
       "label": "4",
       "pressed_image": "Num4_dn.png",
@@ -206,7 +224,8 @@
     {
       "id": "c6a831bd-181d-4ffb-bd32-5ff2bf120ccc",
       "input_id": {
-        "Key": "Num5"
+        "type": "Key",
+        "value": "Num5"
       },
       "label": "5",
       "pressed_image": "Num5_dn.png",
@@ -217,7 +236,8 @@
     {
       "id": "cf03680d-399f-4f2d-b2b4-41c9fa5a4ff7",
       "input_id": {
-        "Key": "Num6"
+        "type": "Key",
+        "value": "Num6"
       },
       "label": "6",
       "pressed_image": "Num6_dn.png",
@@ -228,7 +248,8 @@
     {
       "id": "e41da8d2-a8d7-45e5-a36b-3d120290c772",
       "input_id": {
-        "Key": "Num7"
+        "type": "Key",
+        "value": "Num7"
       },
       "label": "7",
       "pressed_image": "Num7_dn.png",
@@ -239,7 +260,8 @@
     {
       "id": "a237e9a0-f7e5-4348-9f76-70bf264674fc",
       "input_id": {
-        "Key": "Num8"
+        "type": "Key",
+        "value": "Num8"
       },
       "label": "8",
       "pressed_image": "Num8_dn.png",
@@ -250,7 +272,8 @@
     {
       "id": "1128d4ee-6f81-44a7-b341-3a8468312adc",
       "input_id": {
-        "Key": "Num9"
+        "type": "Key",
+        "value": "Num9"
       },
       "label": "9",
       "pressed_image": "Num9_dn.png",
@@ -261,7 +284,8 @@
     {
       "id": "ce88857c-b1d0-4b00-a147-c0d37e18c58a",
       "input_id": {
-        "Key": "Num0"
+        "type": "Key",
+        "value": "Num0"
       },
       "label": "0",
       "pressed_image": "Num0_dn.png",
@@ -272,7 +296,8 @@
     {
       "id": "179a2193-ff20-477a-8239-90391d247b38",
       "input_id": {
-        "Key": "Minus"
+        "type": "Key",
+        "value": "Minus"
       },
       "label": "-",
       "pressed_image": "Minus_dn.png",
@@ -283,7 +308,8 @@
     {
       "id": "7f15eee2-7cc4-4a1b-a4b9-aeb5d716fb00",
       "input_id": {
-        "Key": "Equal"
+        "type": "Key",
+        "value": "Equal"
       },
       "label": "=",
       "pressed_image": "Equal_dn.png",
@@ -294,7 +320,8 @@
     {
       "id": "ca47a542-baad-4571-b1c7-cc729a1c71e1",
       "input_id": {
-        "Key": "Backspace"
+        "type": "Key",
+        "value": "Backspace"
       },
       "label": "BKSP",
       "pressed_image": "Backspace_dn.png",
@@ -305,7 +332,8 @@
     {
       "id": "11fa59da-abd7-4890-b028-064ab24361c0",
       "input_id": {
-        "Key": "Tab"
+        "type": "Key",
+        "value": "Tab"
       },
       "label": "TAB",
       "pressed_image": "Tab_dn.png",
@@ -316,7 +344,8 @@
     {
       "id": "4f737f8e-a35d-4ac4-8057-f6695c68a9ee",
       "input_id": {
-        "Key": "KeyQ"
+        "type": "Key",
+        "value": "KeyQ"
       },
       "label": "Q",
       "pressed_image": "KeyQ_dn.png",
@@ -327,7 +356,8 @@
     {
       "id": "600c64ab-07fb-4b46-adbd-6d25661d11ea",
       "input_id": {
-        "Key": "KeyW"
+        "type": "Key",
+        "value": "KeyW"
       },
       "label": "W",
       "pressed_image": "KeyW_dn.png",
@@ -338,7 +368,8 @@
     {
       "id": "b1319fb3-95aa-4f0f-b1c2-e682f58ecb53",
       "input_id": {
-        "Key": "KeyE"
+        "type": "Key",
+        "value": "KeyE"
       },
       "label": "E",
       "pressed_image": "KeyE_dn.png",
@@ -349,7 +380,8 @@
     {
       "id": "392119e8-34a9-415c-8723-f16290320a5c",
       "input_id": {
-        "Key": "KeyR"
+        "type": "Key",
+        "value": "KeyR"
       },
       "label": "R",
       "pressed_image": "KeyR_dn.png",
@@ -360,7 +392,8 @@
     {
       "id": "7f0f978f-321c-49d8-9bb0-36c5b2ef69af",
       "input_id": {
-        "Key": "KeyT"
+        "type": "Key",
+        "value": "KeyT"
       },
       "label": "T",
       "pressed_image": "KeyT_dn.png",
@@ -371,7 +404,8 @@
     {
       "id": "16431e73-7940-4214-811d-8579f80ab50b",
       "input_id": {
-        "Key": "KeyY"
+        "type": "Key",
+        "value": "KeyY"
       },
       "label": "Y",
       "pressed_image": "KeyY_dn.png",
@@ -382,7 +416,8 @@
     {
       "id": "ef9cd72c-9fc9-42ac-9533-f0b2983da926",
       "input_id": {
-        "Key": "KeyU"
+        "type": "Key",
+        "value": "KeyU"
       },
       "label": "U",
       "pressed_image": "KeyU_dn.png",
@@ -393,7 +428,8 @@
     {
       "id": "86fcf8f6-a0c3-41f1-8d45-88516843be15",
       "input_id": {
-        "Key": "KeyI"
+        "type": "Key",
+        "value": "KeyI"
       },
       "label": "I",
       "pressed_image": "KeyI_dn.png",
@@ -404,7 +440,8 @@
     {
       "id": "82823dfe-670a-474e-870c-4463aba7a66c",
       "input_id": {
-        "Key": "KeyO"
+        "type": "Key",
+        "value": "KeyO"
       },
       "label": "O",
       "pressed_image": "KeyO_dn.png",
@@ -415,7 +452,8 @@
     {
       "id": "c59d9e1d-4cd8-4959-b91b-13dcfb10526c",
       "input_id": {
-        "Key": "KeyP"
+        "type": "Key",
+        "value": "KeyP"
       },
       "label": "P",
       "pressed_image": "KeyP_dn.png",
@@ -426,7 +464,8 @@
     {
       "id": "98586094-d536-4228-b8b6-0aa9fe6b3843",
       "input_id": {
-        "Key": "LeftBracket"
+        "type": "Key",
+        "value": "LeftBracket"
       },
       "label": "[",
       "pressed_image": "LeftBracket_dn.png",
@@ -437,7 +476,8 @@
     {
       "id": "2872b6fc-b414-499b-99d3-9f2b649f6968",
       "input_id": {
-        "Key": "RightBracket"
+        "type": "Key",
+        "value": "RightBracket"
       },
       "label": "]",
       "pressed_image": "RightBracket_dn.png",
@@ -448,7 +488,8 @@
     {
       "id": "04f9ac97-5ce4-4541-9f74-6efeabeead87",
       "input_id": {
-        "Key": "BackSlash"
+        "type": "Key",
+        "value": "BackSlash"
       },
       "label": "\\",
       "pressed_image": "BackSlash_dn.png",
@@ -459,7 +500,8 @@
     {
       "id": "f3380855-e588-4cf7-8d93-158f20b82ea1",
       "input_id": {
-        "Key": "CapsLock"
+        "type": "Key",
+        "value": "CapsLock"
       },
       "label": "CAPS",
       "pressed_image": "CapsLock_dn.png",
@@ -470,7 +512,8 @@
     {
       "id": "0acc23b5-457d-4c8a-9416-af0cc94c4df0",
       "input_id": {
-        "Key": "KeyA"
+        "type": "Key",
+        "value": "KeyA"
       },
       "label": "A",
       "pressed_image": "KeyA_dn.png",
@@ -481,7 +524,8 @@
     {
       "id": "8267b8f1-5aee-4b38-940f-e364ad820691",
       "input_id": {
-        "Key": "KeyS"
+        "type": "Key",
+        "value": "KeyS"
       },
       "label": "S",
       "pressed_image": "KeyS_dn.png",
@@ -492,7 +536,8 @@
     {
       "id": "2188bc5a-c414-4097-8b41-8ed747a93ca8",
       "input_id": {
-        "Key": "KeyD"
+        "type": "Key",
+        "value": "KeyD"
       },
       "label": "D",
       "pressed_image": "KeyD_dn.png",
@@ -503,7 +548,8 @@
     {
       "id": "e6c36eb7-5bca-4485-88da-60480afac034",
       "input_id": {
-        "Key": "KeyF"
+        "type": "Key",
+        "value": "KeyF"
       },
       "label": "F",
       "pressed_image": "KeyF_dn.png",
@@ -514,7 +560,8 @@
     {
       "id": "85598718-b621-49e9-a6ff-c6a97517b602",
       "input_id": {
-        "Key": "KeyG"
+        "type": "Key",
+        "value": "KeyG"
       },
       "label": "G",
       "pressed_image": "KeyG_dn.png",
@@ -525,7 +572,8 @@
     {
       "id": "c072a3fb-ad0a-4b7a-bded-08af3d4de640",
       "input_id": {
-        "Key": "KeyH"
+        "type": "Key",
+        "value": "KeyH"
       },
       "label": "H",
       "pressed_image": "KeyH_dn.png",
@@ -536,7 +584,8 @@
     {
       "id": "4487f37b-f601-4cfa-ab6d-22dfe4dd906b",
       "input_id": {
-        "Key": "KeyJ"
+        "type": "Key",
+        "value": "KeyJ"
       },
       "label": "J",
       "pressed_image": "KeyJ_dn.png",
@@ -547,7 +596,8 @@
     {
       "id": "0fef9650-09d9-4f64-a2d1-5b6e54036665",
       "input_id": {
-        "Key": "KeyK"
+        "type": "Key",
+        "value": "KeyK"
       },
       "label": "K",
       "pressed_image": "KeyK_dn.png",
@@ -558,7 +608,8 @@
     {
       "id": "3698a855-ad78-48f2-8ce2-ccab49fea3c4",
       "input_id": {
-        "Key": "KeyL"
+        "type": "Key",
+        "value": "KeyL"
       },
       "label": "L",
       "pressed_image": "KeyL_dn.png",
@@ -569,7 +620,8 @@
     {
       "id": "3873fe5e-9063-4050-b869-804ac1fbe1fd",
       "input_id": {
-        "Key": "SemiColon"
+        "type": "Key",
+        "value": "SemiColon"
       },
       "label": ";",
       "pressed_image": "SemiColon_dn.png",
@@ -580,7 +632,8 @@
     {
       "id": "5534c76c-ba66-4ca2-8ee5-3a3d3a6e4642",
       "input_id": {
-        "Key": "Quote"
+        "type": "Key",
+        "value": "Quote"
       },
       "label": "'",
       "pressed_image": "Quote_dn.png",
@@ -591,7 +644,8 @@
     {
       "id": "479524f0-2a03-4ed2-9671-18fb316793fa",
       "input_id": {
-        "Key": "Return"
+        "type": "Key",
+        "value": "Return"
       },
       "label": "ENTER",
       "pressed_image": "Return_dn.png",
@@ -602,7 +656,8 @@
     {
       "id": "6806c622-28c0-43be-ac88-eccf5379b03f",
       "input_id": {
-        "Key": "ShiftLeft"
+        "type": "Key",
+        "value": "ShiftLeft"
       },
       "label": "SHIFT",
       "pressed_image": "ShiftLeft_dn.png",
@@ -613,7 +668,8 @@
     {
       "id": "38b520eb-5bae-43db-95c2-56fb26463143",
       "input_id": {
-        "Key": "KeyZ"
+        "type": "Key",
+        "value": "KeyZ"
       },
       "label": "Z",
       "pressed_image": "KeyZ_dn.png",
@@ -624,7 +680,8 @@
     {
       "id": "78ab2c6a-d983-4694-9689-51bfd9214aaa",
       "input_id": {
-        "Key": "KeyX"
+        "type": "Key",
+        "value": "KeyX"
       },
       "label": "X",
       "pressed_image": "KeyX_dn.png",
@@ -635,7 +692,8 @@
     {
       "id": "f6b9ddf5-d2be-46d6-ab67-bdd6c399ecdd",
       "input_id": {
-        "Key": "KeyC"
+        "type": "Key",
+        "value": "KeyC"
       },
       "label": "C",
       "pressed_image": "KeyC_dn.png",
@@ -646,7 +704,8 @@
     {
       "id": "8988f853-35c1-4436-9950-3cea4b7533f5",
       "input_id": {
-        "Key": "KeyV"
+        "type": "Key",
+        "value": "KeyV"
       },
       "label": "V",
       "pressed_image": "KeyV_dn.png",
@@ -657,7 +716,8 @@
     {
       "id": "65ebef9d-47cd-4304-88d8-41919df6da72",
       "input_id": {
-        "Key": "KeyB"
+        "type": "Key",
+        "value": "KeyB"
       },
       "label": "B",
       "pressed_image": "KeyB_dn.png",
@@ -668,7 +728,8 @@
     {
       "id": "42c2a3c5-307c-49c5-af3d-3aa1e2c7b0e7",
       "input_id": {
-        "Key": "KeyN"
+        "type": "Key",
+        "value": "KeyN"
       },
       "label": "N",
       "pressed_image": "KeyN_dn.png",
@@ -679,7 +740,8 @@
     {
       "id": "cc0c177e-d070-4f18-9af7-0db882ccd110",
       "input_id": {
-        "Key": "KeyM"
+        "type": "Key",
+        "value": "KeyM"
       },
       "label": "M",
       "pressed_image": "KeyM_dn.png",
@@ -690,7 +752,8 @@
     {
       "id": "5bfc9f13-0187-4b62-ae2c-39bd6f6fb6e3",
       "input_id": {
-        "Key": "Comma"
+        "type": "Key",
+        "value": "Comma"
       },
       "label": ",",
       "pressed_image": "Comma_dn.png",
@@ -701,7 +764,8 @@
     {
       "id": "a9b4fb9c-19f0-4055-9d26-3f3c3ac49949",
       "input_id": {
-        "Key": "Dot"
+        "type": "Key",
+        "value": "Dot"
       },
       "label": ".",
       "pressed_image": "Dot_dn.png",
@@ -712,7 +776,8 @@
     {
       "id": "4a40c279-1d3e-40b9-b913-5d327a553cc8",
       "input_id": {
-        "Key": "Slash"
+        "type": "Key",
+        "value": "Slash"
       },
       "label": "/",
       "pressed_image": "Slash_dn.png",
@@ -723,7 +788,8 @@
     {
       "id": "d87501e0-22d1-4c15-8f98-f2391b635367",
       "input_id": {
-        "Key": "ShiftRight"
+        "type": "Key",
+        "value": "ShiftRight"
       },
       "label": "SHIFT",
       "pressed_image": "ShiftRight_dn.png",
@@ -734,7 +800,8 @@
     {
       "id": "880cdc63-dd01-40b4-aba6-4ce62031edee",
       "input_id": {
-        "Key": "ControlLeft"
+        "type": "Key",
+        "value": "ControlLeft"
       },
       "label": "CTRL",
       "pressed_image": "ControlLeft_dn.png",
@@ -745,7 +812,8 @@
     {
       "id": "4722d9d8-bcd4-4308-99bb-e3c3a7d0aabf",
       "input_id": {
-        "Key": "MetaLeft"
+        "type": "Key",
+        "value": "MetaLeft"
       },
       "label": "WIN",
       "pressed_image": "MetaLeft_dn.png",
@@ -756,7 +824,8 @@
     {
       "id": "db6e04b0-db79-49a9-b6d6-2c5c1947bac3",
       "input_id": {
-        "Key": "Alt"
+        "type": "Key",
+        "value": "Alt"
       },
       "label": "ALT",
       "pressed_image": "Alt_dn.png",
@@ -767,7 +836,8 @@
     {
       "id": "0f3a95f2-48a5-4f77-890f-0c64fa70a284",
       "input_id": {
-        "Key": "Space"
+        "type": "Key",
+        "value": "Space"
       },
       "label": "SPACE",
       "pressed_image": "Space_dn.png",
@@ -778,7 +848,8 @@
     {
       "id": "577f37c3-169d-4e86-b42c-5318a5283040",
       "input_id": {
-        "Key": "AltGr"
+        "type": "Key",
+        "value": "AltGr"
       },
       "label": "ALTGR",
       "pressed_image": "AltGr_dn.png",
@@ -789,7 +860,8 @@
     {
       "id": "42b01c09-e42a-4987-979d-3c5227b28ec5",
       "input_id": {
-        "Key": "MetaRight"
+        "type": "Key",
+        "value": "MetaRight"
       },
       "label": "WIN",
       "pressed_image": "MetaRight_dn.png",
@@ -800,7 +872,8 @@
     {
       "id": "ae373864-6880-491d-a787-5b9c6a9cf777",
       "input_id": {
-        "Key": "ControlRight"
+        "type": "Key",
+        "value": "ControlRight"
       },
       "label": "CTRL",
       "pressed_image": "ControlRight_dn.png",
@@ -811,7 +884,8 @@
     {
       "id": "96760b41-37d9-430a-8fbc-d78c38a98805",
       "input_id": {
-        "Key": "PrintScreen"
+        "type": "Key",
+        "value": "PrintScreen"
       },
       "label": "PRTSC",
       "pressed_image": "PrintScreen_dn.png",
@@ -822,7 +896,8 @@
     {
       "id": "0046acdd-71b4-42c5-98ed-bbce606cd5f1",
       "input_id": {
-        "Key": "ScrollLock"
+        "type": "Key",
+        "value": "ScrollLock"
       },
       "label": "SCRLK",
       "pressed_image": "ScrollLock_dn.png",
@@ -833,7 +908,8 @@
     {
       "id": "9e4de8e9-2375-4aa9-8eee-c239f3fab547",
       "input_id": {
-        "Key": "Pause"
+        "type": "Key",
+        "value": "Pause"
       },
       "label": "PAUSE",
       "pressed_image": "Pause_dn.png",
@@ -844,7 +920,8 @@
     {
       "id": "1c4b4eae-6c65-410a-bb3d-bbdbc14ffab7",
       "input_id": {
-        "Key": "Insert"
+        "type": "Key",
+        "value": "Insert"
       },
       "label": "INS",
       "pressed_image": "Insert_dn.png",
@@ -855,7 +932,8 @@
     {
       "id": "21dc5610-7de6-4897-911e-8570d661b12a",
       "input_id": {
-        "Key": "Home"
+        "type": "Key",
+        "value": "Home"
       },
       "label": "HOME",
       "pressed_image": "Home_dn.png",
@@ -866,7 +944,8 @@
     {
       "id": "1a7a9459-a727-4329-8ab8-22f23276a47e",
       "input_id": {
-        "Key": "PageUp"
+        "type": "Key",
+        "value": "PageUp"
       },
       "label": "PGUP",
       "pressed_image": "PageUp_dn.png",
@@ -877,7 +956,8 @@
     {
       "id": "81d11f78-754a-4266-b8ec-d16594a91c50",
       "input_id": {
-        "Key": "Delete"
+        "type": "Key",
+        "value": "Delete"
       },
       "label": "DEL",
       "pressed_image": "Delete_dn.png",
@@ -888,7 +968,8 @@
     {
       "id": "7553beb2-762b-48b3-8abc-a04bc12c934d",
       "input_id": {
-        "Key": "End"
+        "type": "Key",
+        "value": "End"
       },
       "label": "END",
       "pressed_image": "End_dn.png",
@@ -899,7 +980,8 @@
     {
       "id": "234042b1-c1ac-43d6-8cdd-9cdb11fbee12",
       "input_id": {
-        "Key": "PageDown"
+        "type": "Key",
+        "value": "PageDown"
       },
       "label": "PGDN",
       "pressed_image": "PageDown_dn.png",
@@ -910,7 +992,8 @@
     {
       "id": "8ca05318-e3bf-4a38-bcdf-8dcd18dd52af",
       "input_id": {
-        "Key": "UpArrow"
+        "type": "Key",
+        "value": "UpArrow"
       },
       "label": "UP",
       "pressed_image": "UpArrow_dn.png",
@@ -921,7 +1004,8 @@
     {
       "id": "eb34faf8-5731-4fb7-8336-5c619df8085e",
       "input_id": {
-        "Key": "DownArrow"
+        "type": "Key",
+        "value": "DownArrow"
       },
       "label": "DOWN",
       "pressed_image": "DownArrow_dn.png",
@@ -932,7 +1016,8 @@
     {
       "id": "2b24db67-de18-42db-a08d-f732006c1aa0",
       "input_id": {
-        "Key": "LeftArrow"
+        "type": "Key",
+        "value": "LeftArrow"
       },
       "label": "LEFT",
       "pressed_image": "LeftArrow_dn.png",
@@ -943,7 +1028,8 @@
     {
       "id": "10054c24-3b5c-4c26-899e-60059cb3334a",
       "input_id": {
-        "Key": "RightArrow"
+        "type": "Key",
+        "value": "RightArrow"
       },
       "label": "RIGHT",
       "pressed_image": "RightArrow_dn.png",
@@ -954,7 +1040,8 @@
     {
       "id": "adb6159d-5d58-499d-9d0e-618d72799a94",
       "input_id": {
-        "Key": "NumLock"
+        "type": "Key",
+        "value": "NumLock"
       },
       "label": "NUMLK",
       "pressed_image": "NumLock_dn.png",
@@ -965,7 +1052,8 @@
     {
       "id": "c1250be6-248c-4c8a-a64d-ca51db735af9",
       "input_id": {
-        "Key": "KpDivide"
+        "type": "Key",
+        "value": "KpDivide"
       },
       "label": "N/",
       "pressed_image": "KpDivide_dn.png",
@@ -976,7 +1064,8 @@
     {
       "id": "da8c2a54-d35c-449b-928d-7bd1fff4b98a",
       "input_id": {
-        "Key": "KpMultiply"
+        "type": "Key",
+        "value": "KpMultiply"
       },
       "label": "N*",
       "pressed_image": "KpMultiply_dn.png",
@@ -987,7 +1076,8 @@
     {
       "id": "c0bb42bd-71da-4990-a3a7-b61dad3f5a81",
       "input_id": {
-        "Key": "KpMinus"
+        "type": "Key",
+        "value": "KpMinus"
       },
       "label": "N-",
       "pressed_image": "KpMinus_dn.png",
@@ -998,7 +1088,8 @@
     {
       "id": "5f6b131d-a2d0-4995-b06a-5e5231b79a72",
       "input_id": {
-        "Key": "Kp7"
+        "type": "Key",
+        "value": "Kp7"
       },
       "label": "N7",
       "pressed_image": "Kp7_dn.png",
@@ -1009,7 +1100,8 @@
     {
       "id": "8ea55683-469d-4803-b95f-360a5914093e",
       "input_id": {
-        "Key": "Kp8"
+        "type": "Key",
+        "value": "Kp8"
       },
       "label": "N8",
       "pressed_image": "Kp8_dn.png",
@@ -1020,7 +1112,8 @@
     {
       "id": "d69286a5-0188-4f2c-8cdf-f93b30a0de8a",
       "input_id": {
-        "Key": "Kp9"
+        "type": "Key",
+        "value": "Kp9"
       },
       "label": "N9",
       "pressed_image": "Kp9_dn.png",
@@ -1031,7 +1124,8 @@
     {
       "id": "42080105-3155-47e5-ba75-3a8ea16710d0",
       "input_id": {
-        "Key": "KpPlus"
+        "type": "Key",
+        "value": "KpPlus"
       },
       "label": "N+",
       "pressed_image": "KpPlus_dn.png",
@@ -1042,7 +1136,8 @@
     {
       "id": "29d96ea5-6dda-48fa-bf2b-e058bc72b435",
       "input_id": {
-        "Key": "Kp4"
+        "type": "Key",
+        "value": "Kp4"
       },
       "label": "N4",
       "pressed_image": "Kp4_dn.png",
@@ -1053,7 +1148,8 @@
     {
       "id": "468d1aee-e962-428c-a768-203e16d752fd",
       "input_id": {
-        "Key": "Kp5"
+        "type": "Key",
+        "value": "Kp5"
       },
       "label": "N5",
       "pressed_image": "Kp5_dn.png",
@@ -1064,7 +1160,8 @@
     {
       "id": "7621647a-3b38-4ffd-af13-ab170e53e415",
       "input_id": {
-        "Key": "Kp6"
+        "type": "Key",
+        "value": "Kp6"
       },
       "label": "N6",
       "pressed_image": "Kp6_dn.png",
@@ -1075,7 +1172,8 @@
     {
       "id": "4c71aba1-bf9b-4640-a33b-7cdd8fbce210",
       "input_id": {
-        "Key": "Kp1"
+        "type": "Key",
+        "value": "Kp1"
       },
       "label": "N1",
       "pressed_image": "Kp1_dn.png",
@@ -1086,7 +1184,8 @@
     {
       "id": "b198d214-9a9a-44ac-8907-6c71794fc2b6",
       "input_id": {
-        "Key": "Kp2"
+        "type": "Key",
+        "value": "Kp2"
       },
       "label": "N2",
       "pressed_image": "Kp2_dn.png",
@@ -1097,7 +1196,8 @@
     {
       "id": "66a8dcda-df34-4738-9ef3-2b8d6b5b9569",
       "input_id": {
-        "Key": "Kp3"
+        "type": "Key",
+        "value": "Kp3"
       },
       "label": "N3",
       "pressed_image": "Kp3_dn.png",
@@ -1108,7 +1208,8 @@
     {
       "id": "70c90705-1ff8-47a7-ad99-e99f9ba39497",
       "input_id": {
-        "Key": "KpReturn"
+        "type": "Key",
+        "value": "KpReturn"
       },
       "label": "NENT",
       "pressed_image": "KpReturn_dn.png",
@@ -1119,7 +1220,8 @@
     {
       "id": "d2d5ca9c-d7e9-4516-9d1b-80a3359d8bd3",
       "input_id": {
-        "Key": "Kp0"
+        "type": "Key",
+        "value": "Kp0"
       },
       "label": "N0",
       "pressed_image": "Kp0_dn.png",
@@ -1130,7 +1232,8 @@
     {
       "id": "301654d5-5fca-465c-890f-5a004ad6885b",
       "input_id": {
-        "Key": "KpDelete"
+        "type": "Key",
+        "value": "KpDelete"
       },
       "label": "N.",
       "pressed_image": "KpDelete_dn.png",
