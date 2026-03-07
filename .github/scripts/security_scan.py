@@ -18,10 +18,9 @@ DANGEROUS_EXTENSIONS = {
     ".html", ".htm", ".svg",  # SVG can contain scripts
 }
 
-# Compression bomb: if a file claims to be an image but is suspiciously large
-# relative to dimensions, flag it. Simple heuristic: files over 5MB that aren't
-# obviously high-res are suspicious.
-SUSPICIOUS_SIZE_BYTES = 5 * 1024 * 1024
+# Any single file over 2 MB is rejected (matches validate_atlases.py limit).
+# This ensures nothing exceeds ClamAV's --max-filesize.
+MAX_FILE_SIZE_BYTES = 2 * 1024 * 1024
 
 errors: list[str] = []
 
@@ -80,21 +79,19 @@ def scan_dangerous_files(atlas_dir: str, name: str):
 
 
 def scan_file_sizes(atlas_dir: str, name: str):
-    """Flag suspiciously large files (potential compression bombs or binary blobs)."""
-    images_dir = os.path.join(atlas_dir, "images")
-    if not os.path.isdir(images_dir):
-        return
-
-    for f in os.listdir(images_dir):
-        full = os.path.join(images_dir, f)
-        if not os.path.isfile(full):
-            continue
-        size = os.path.getsize(full)
-        if size > SUSPICIOUS_SIZE_BYTES:
-            error(
-                f"{name}: images/{f} is {size / 1024 / 1024:.1f} MB - "
-                f"suspiciously large for an image. Max recommended: 2 MB."
-            )
+    """Reject any file over the size limit. Prevents ClamAV silent skips."""
+    for root, _dirs, files in os.walk(atlas_dir):
+        for f in files:
+            full = os.path.join(root, f)
+            if not os.path.isfile(full):
+                continue
+            size = os.path.getsize(full)
+            if size > MAX_FILE_SIZE_BYTES:
+                rel = os.path.relpath(full, ATLASES_DIR)
+                error(
+                    f"{name}: {rel} is {size / 1024 / 1024:.1f} MB "
+                    f"(max {MAX_FILE_SIZE_BYTES / 1024 / 1024:.0f} MB)"
+                )
 
 
 def scan_hidden_files(atlas_dir: str, name: str):

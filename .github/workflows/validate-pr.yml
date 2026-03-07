@@ -22,6 +22,9 @@ jobs:
             exit 1
           fi
 
+      # These three run first and enforce hard limits (2 MB/file, 20 MB/atlas,
+      # 500 files/atlas). This guarantees nothing exceeds ClamAV's thresholds
+      # below, so ClamAV never silently skips an oversized file.
       - name: Validate atlas structure
         run: python3 .github/scripts/validate_atlases.py
 
@@ -31,25 +34,40 @@ jobs:
       - name: Verify images are valid
         run: python3 .github/scripts/validate_images.py
 
-  virus-scan:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+      # ClamAV — only scans changed atlas files, only runs if validation passed
+      - name: Get changed atlas files
+        id: changed
+        run: |
+          files=$(git diff --name-only --diff-filter=ACMR origin/main...HEAD -- 'atlases/' | head -500)
+          if [ -z "$files" ]; then
+            echo "No atlas files changed, skipping virus scan"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "$files" > /tmp/changed_files.txt
+            echo "Virus scanning $(echo "$files" | wc -l) changed file(s)"
+          fi
 
       - name: Install ClamAV
+        if: steps.changed.outputs.skip != 'true'
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq clamav
 
       - name: Update virus definitions
+        if: steps.changed.outputs.skip != 'true'
         run: |
           sudo systemctl stop clamav-freshclam || true
           sudo freshclam || true
 
-      - name: Scan repository
+      - name: Virus scan changed files
+        if: steps.changed.outputs.skip != 'true'
         run: |
-          clamscan --recursive --infected --alert-exceeds-max=yes \
-            --max-filesize=10M --max-scansize=50M \
-            --max-files=500 --max-recursion=5 \
-            atlases/
+          # Limits here are intentionally above what validation allows (2 MB/file,
+          # 20 MB/atlas) so ClamAV never silently skips. If somehow a file slips
+          # through, --alert-exceeds-max makes ClamAV flag it instead of ignoring.
+          clamscan --infected --alert-exceeds-max=yes \
+            --max-filesize=25M --max-scansize=100M \
+            --max-recursion=5 \
+            --file-list=/tmp/changed_files.txt
           echo "ClamAV scan passed"
