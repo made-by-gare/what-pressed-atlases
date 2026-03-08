@@ -2,6 +2,16 @@
   "version": 1,
   "atlases": [
     {
+      "name": "plain-outline",
+      "display_name": "Plain Outline",
+      "description": "Plain white outline keyboard with all standard keys. Unpressed shows an outline, pressed fills solid with knocked-out text.",
+      "author": "madebygare",
+      "version": "1.0.0",
+      "thumbnail_url": "atlases/plain-outline/thumbnail.png",
+      "entry_count": 106,
+      "updated_at": "2026-03-08T00:34:45Z"
+    },
+    {
       "name": "wobbly-goofy-keys",
       "display_name": "Wobbly Goofy Keys",
       "description": "Wobbly looking keys in silly colors, mostly for testing...",
@@ -9,7 +19,7 @@
       "version": "1.0.0",
       "thumbnail_url": "atlases/wobbly-goofy-keys/thumbnail.png",
       "entry_count": 103,
-      "updated_at": "2026-03-07T23:12:55Z"
+      "updated_at": "2026-03-08T00:34:45Z"
     }
   ]
 }
