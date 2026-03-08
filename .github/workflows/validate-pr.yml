@@ -34,7 +34,7 @@ jobs:
       - name: Verify images are valid
         run: python3 .github/scripts/validate_images.py
 
-      # ClamAV — only scans changed atlas files, only runs if validation passed
+      # ClamAV - only scans changed atlas files, only runs if validation passed
       - name: Get changed atlas files
         id: changed
         run: |
