@@ -1,0 +1,1282 @@
+{
+  "name": "plain-outline",
+  "version": 1,
+  "semver": "1.0.0",
+  "description": "Plain white outline keyboard with all standard keys. Unpressed shows an outline, pressed fills solid with knocked-out text.",
+  "author": "madebygare",
+  "entries": [
+    {
+      "id": "17376609-c345-47ab-852d-d133e487ec83",
+      "input_id": {
+        "type": "Key",
+        "value": "Escape"
+      },
+      "label": "ESC",
+      "pressed_image": "Escape_dn.png",
+      "unpressed_image": "Escape_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "caad6d14-672d-4a4c-b485-3b07c264a271",
+      "input_id": {
+        "type": "Key",
+        "value": "F1"
+      },
+      "label": "F1",
+      "pressed_image": "F1_dn.png",
+      "unpressed_image": "F1_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "e2c67fc8-07f2-4d61-b225-57f799f4b2b1",
+      "input_id": {
+        "type": "Key",
+        "value": "F2"
+      },
+      "label": "F2",
+      "pressed_image": "F2_dn.png",
+      "unpressed_image": "F2_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "c630aece-679a-4967-a635-a32fd7851e29",
+      "input_id": {
+        "type": "Key",
+        "value": "F3"
+      },
+      "label": "F3",
+      "pressed_image": "F3_dn.png",
+      "unpressed_image": "F3_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "67956c39-ad06-4a59-a269-42226517eef8",
+      "input_id": {
+        "type": "Key",
+        "value": "F4"
+      },
+      "label": "F4",
+      "pressed_image": "F4_dn.png",
+      "unpressed_image": "F4_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "5d572da1-8034-428f-b358-b518c0ef5b49",
+      "input_id": {
+        "type": "Key",
+        "value": "F5"
+      },
+      "label": "F5",
+      "pressed_image": "F5_dn.png",
+      "unpressed_image": "F5_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "ddddc7ae-fb44-45de-a567-e169c8c982ef",
+      "input_id": {
+        "type": "Key",
+        "value": "F6"
+      },
+      "label": "F6",
+      "pressed_image": "F6_dn.png",
+      "unpressed_image": "F6_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "4f0aec6b-2b20-45f2-84e0-3923d7c10a43",
+      "input_id": {
+        "type": "Key",
+        "value": "F7"
+      },
+      "label": "F7",
+      "pressed_image": "F7_dn.png",
+      "unpressed_image": "F7_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "cbf4d507-5341-4b89-a91d-e09991395618",
+      "input_id": {
+        "type": "Key",
+        "value": "F8"
+      },
+      "label": "F8",
+      "pressed_image": "F8_dn.png",
+      "unpressed_image": "F8_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "9a675f3d-0be8-4f4c-a8bb-af7960c2278c",
+      "input_id": {
+        "type": "Key",
+        "value": "F9"
+      },
+      "label": "F9",
+      "pressed_image": "F9_dn.png",
+      "unpressed_image": "F9_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "9c11b7d6-abda-4d6e-9cf3-984620f951d9",
+      "input_id": {
+        "type": "Key",
+        "value": "F10"
+      },
+      "label": "F10",
+      "pressed_image": "F10_dn.png",
+      "unpressed_image": "F10_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "21acaf44-17d5-4d19-b59b-87f7c5400478",
+      "input_id": {
+        "type": "Key",
+        "value": "F11"
+      },
+      "label": "F11",
+      "pressed_image": "F11_dn.png",
+      "unpressed_image": "F11_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "71eaf00e-3a41-45a0-b8fe-5546a80f7c0d",
+      "input_id": {
+        "type": "Key",
+        "value": "F12"
+      },
+      "label": "F12",
+      "pressed_image": "F12_dn.png",
+      "unpressed_image": "F12_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "bed7988c-dd53-4ce0-abd7-83e68933fa07",
+      "input_id": {
+        "type": "Key",
+        "value": "BackQuote"
+      },
+      "label": "`",
+      "pressed_image": "BackQuote_dn.png",
+      "unpressed_image": "BackQuote_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "9e6e63b9-59f3-48a1-ae63-8ce445e5fd2d",
+      "input_id": {
+        "type": "Key",
+        "value": "Num1"
+      },
+      "label": "1",
+      "pressed_image": "Num1_dn.png",
+      "unpressed_image": "Num1_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "44d159a7-8fcb-4294-bf4f-c1147d3f05fa",
+      "input_id": {
+        "type": "Key",
+        "value": "Num2"
+      },
+      "label": "2",
+      "pressed_image": "Num2_dn.png",
+      "unpressed_image": "Num2_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "fb13a16a-34e6-4d37-9672-b76a83f920a6",
+      "input_id": {
+        "type": "Key",
+        "value": "Num3"
+      },
+      "label": "3",
+      "pressed_image": "Num3_dn.png",
+      "unpressed_image": "Num3_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "20889c63-ced1-4d0a-902e-bdaca8e143b4",
+      "input_id": {
+        "type": "Key",
+        "value": "Num4"
+      },
+      "label": "4",
+      "pressed_image": "Num4_dn.png",
+      "unpressed_image": "Num4_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "586a5af5-18e6-4297-917d-e16572738424",
+      "input_id": {
+        "type": "Key",
+        "value": "Num5"
+      },
+      "label": "5",
+      "pressed_image": "Num5_dn.png",
+      "unpressed_image": "Num5_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "9a9f7e28-13de-4e53-828a-3fc70d70f894",
+      "input_id": {
+        "type": "Key",
+        "value": "Num6"
+      },
+      "label": "6",
+      "pressed_image": "Num6_dn.png",
+      "unpressed_image": "Num6_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "4c6c16b4-8769-4881-a605-b7f329690e47",
+      "input_id": {
+        "type": "Key",
+        "value": "Num7"
+      },
+      "label": "7",
+      "pressed_image": "Num7_dn.png",
+      "unpressed_image": "Num7_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "e989fea5-c672-40da-a467-bd17eb6f05e6",
+      "input_id": {
+        "type": "Key",
+        "value": "Num8"
+      },
+      "label": "8",
+      "pressed_image": "Num8_dn.png",
+      "unpressed_image": "Num8_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "9a299180-2622-4c1d-be41-3a1825211573",
+      "input_id": {
+        "type": "Key",
+        "value": "Num9"
+      },
+      "label": "9",
+      "pressed_image": "Num9_dn.png",
+      "unpressed_image": "Num9_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "6b898404-42b1-4ff3-8901-d44ec402e262",
+      "input_id": {
+        "type": "Key",
+        "value": "Num0"
+      },
+      "label": "0",
+      "pressed_image": "Num0_dn.png",
+      "unpressed_image": "Num0_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "6d484964-8db6-41be-ba42-5346240141be",
+      "input_id": {
+        "type": "Key",
+        "value": "Minus"
+      },
+      "label": "-",
+      "pressed_image": "Minus_dn.png",
+      "unpressed_image": "Minus_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "bafa5b91-ad04-498e-8640-efa54ff1d498",
+      "input_id": {
+        "type": "Key",
+        "value": "Equal"
+      },
+      "label": "=",
+      "pressed_image": "Equal_dn.png",
+      "unpressed_image": "Equal_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "d279dc1f-c851-44bf-b0d7-b984af72c3fb",
+      "input_id": {
+        "type": "Key",
+        "value": "Backspace"
+      },
+      "label": "BKSP",
+      "pressed_image": "Backspace_dn.png",
+      "unpressed_image": "Backspace_up.png",
+      "width": 128,
+      "height": 64
+    },
+    {
+      "id": "86a45bd4-e81b-4a92-818e-24ec11f567db",
+      "input_id": {
+        "type": "Key",
+        "value": "Tab"
+      },
+      "label": "TAB",
+      "pressed_image": "Tab_dn.png",
+      "unpressed_image": "Tab_up.png",
+      "width": 96,
+      "height": 64
+    },
+    {
+      "id": "b84d22df-6d44-443c-8d33-26680093d23b",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyQ"
+      },
+      "label": "Q",
+      "pressed_image": "KeyQ_dn.png",
+      "unpressed_image": "KeyQ_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "b071e2c3-cfee-48d9-886a-ad8a9e3dffba",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyW"
+      },
+      "label": "W",
+      "pressed_image": "KeyW_dn.png",
+      "unpressed_image": "KeyW_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "a484aacf-8ac1-4fee-82ce-707eedaa2df2",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyE"
+      },
+      "label": "E",
+      "pressed_image": "KeyE_dn.png",
+      "unpressed_image": "KeyE_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "97fc8853-5164-45f4-83c4-3c48537fb9a9",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyR"
+      },
+      "label": "R",
+      "pressed_image": "KeyR_dn.png",
+      "unpressed_image": "KeyR_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "274f5037-9136-4abc-9b4f-c0f0ef40068a",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyT"
+      },
+      "label": "T",
+      "pressed_image": "KeyT_dn.png",
+      "unpressed_image": "KeyT_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "45ebb10d-6cad-407d-8de0-48cab33b2f79",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyY"
+      },
+      "label": "Y",
+      "pressed_image": "KeyY_dn.png",
+      "unpressed_image": "KeyY_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "9282db07-576b-4f3b-89d9-bc0eb5bed946",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyU"
+      },
+      "label": "U",
+      "pressed_image": "KeyU_dn.png",
+      "unpressed_image": "KeyU_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "2c5cd8c6-034c-4678-b2cb-f88b565e5d4e",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyI"
+      },
+      "label": "I",
+      "pressed_image": "KeyI_dn.png",
+      "unpressed_image": "KeyI_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "2d229f56-c0a2-4cac-87f6-6a2c0426504e",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyO"
+      },
+      "label": "O",
+      "pressed_image": "KeyO_dn.png",
+      "unpressed_image": "KeyO_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "e2899a5b-5526-4866-a548-af00514fa48e",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyP"
+      },
+      "label": "P",
+      "pressed_image": "KeyP_dn.png",
+      "unpressed_image": "KeyP_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "a130ce01-dfcb-491f-8728-b8e88e0df12f",
+      "input_id": {
+        "type": "Key",
+        "value": "LeftBracket"
+      },
+      "label": "[",
+      "pressed_image": "LeftBracket_dn.png",
+      "unpressed_image": "LeftBracket_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "87972476-acf4-4a69-853a-4aba07c7d661",
+      "input_id": {
+        "type": "Key",
+        "value": "RightBracket"
+      },
+      "label": "]",
+      "pressed_image": "RightBracket_dn.png",
+      "unpressed_image": "RightBracket_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "d97f65b5-294f-4bb3-ac6a-7217a7d5aa09",
+      "input_id": {
+        "type": "Key",
+        "value": "BackSlash"
+      },
+      "label": "\\",
+      "pressed_image": "BackSlash_dn.png",
+      "unpressed_image": "BackSlash_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "85476a07-403b-474f-a116-b7cefe902d7a",
+      "input_id": {
+        "type": "Key",
+        "value": "CapsLock"
+      },
+      "label": "CAPS",
+      "pressed_image": "CapsLock_dn.png",
+      "unpressed_image": "CapsLock_up.png",
+      "width": 112,
+      "height": 64
+    },
+    {
+      "id": "dc1115c5-0a49-4dba-9437-6f5a10941200",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyA"
+      },
+      "label": "A",
+      "pressed_image": "KeyA_dn.png",
+      "unpressed_image": "KeyA_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "474b9943-ae6b-469d-8007-5962c2da930e",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyS"
+      },
+      "label": "S",
+      "pressed_image": "KeyS_dn.png",
+      "unpressed_image": "KeyS_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "bc8e4928-d260-4709-86cb-b1c6d7892663",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyD"
+      },
+      "label": "D",
+      "pressed_image": "KeyD_dn.png",
+      "unpressed_image": "KeyD_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "8042fedb-adcf-4350-a061-857cf5a69e00",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyF"
+      },
+      "label": "F",
+      "pressed_image": "KeyF_dn.png",
+      "unpressed_image": "KeyF_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "b69ac276-5a79-482e-a22e-2aaddb92566e",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyG"
+      },
+      "label": "G",
+      "pressed_image": "KeyG_dn.png",
+      "unpressed_image": "KeyG_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "c3eb58a8-4cd7-4caa-812c-cdca3cbddbd8",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyH"
+      },
+      "label": "H",
+      "pressed_image": "KeyH_dn.png",
+      "unpressed_image": "KeyH_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "4ae68483-1b1e-4488-9b55-fcaffd2168d4",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyJ"
+      },
+      "label": "J",
+      "pressed_image": "KeyJ_dn.png",
+      "unpressed_image": "KeyJ_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "39a7fc9a-b4b2-40db-b253-c9cb25710648",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyK"
+      },
+      "label": "K",
+      "pressed_image": "KeyK_dn.png",
+      "unpressed_image": "KeyK_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "488c9c95-3c36-41ab-bb0d-1a5e2e9f26ab",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyL"
+      },
+      "label": "L",
+      "pressed_image": "KeyL_dn.png",
+      "unpressed_image": "KeyL_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "fb477ee0-d8b6-463c-8044-2c7445615ca9",
+      "input_id": {
+        "type": "Key",
+        "value": "SemiColon"
+      },
+      "label": ";",
+      "pressed_image": "SemiColon_dn.png",
+      "unpressed_image": "SemiColon_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "12f3e8e8-1495-45bf-98be-a2d7846a5012",
+      "input_id": {
+        "type": "Key",
+        "value": "Quote"
+      },
+      "label": "'",
+      "pressed_image": "Quote_dn.png",
+      "unpressed_image": "Quote_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "8c744520-3aa9-40ca-832e-ca7a4a1576a5",
+      "input_id": {
+        "type": "Key",
+        "value": "Return"
+      },
+      "label": "ENTER",
+      "pressed_image": "Return_dn.png",
+      "unpressed_image": "Return_up.png",
+      "width": 128,
+      "height": 64
+    },
+    {
+      "id": "6c8f6eec-8f20-488a-a30a-d1e72b1edeab",
+      "input_id": {
+        "type": "Key",
+        "value": "ShiftLeft"
+      },
+      "label": "SHIFT",
+      "pressed_image": "ShiftLeft_dn.png",
+      "unpressed_image": "ShiftLeft_up.png",
+      "width": 144,
+      "height": 64
+    },
+    {
+      "id": "66bbe1d7-418f-4029-9024-80c136f87e03",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyZ"
+      },
+      "label": "Z",
+      "pressed_image": "KeyZ_dn.png",
+      "unpressed_image": "KeyZ_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "b469f0ff-74c0-4104-9cbb-62297c650d3a",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyX"
+      },
+      "label": "X",
+      "pressed_image": "KeyX_dn.png",
+      "unpressed_image": "KeyX_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "eac114cf-e940-49d6-9172-5f998fe1d296",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyC"
+      },
+      "label": "C",
+      "pressed_image": "KeyC_dn.png",
+      "unpressed_image": "KeyC_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "5aa76c66-728f-4c5c-9a42-72cbc7eae3fd",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyV"
+      },
+      "label": "V",
+      "pressed_image": "KeyV_dn.png",
+      "unpressed_image": "KeyV_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "70cd659b-834c-4e71-9908-388fcfdb8792",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyB"
+      },
+      "label": "B",
+      "pressed_image": "KeyB_dn.png",
+      "unpressed_image": "KeyB_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "24efaec1-715a-4d20-8d17-403065360b3e",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyN"
+      },
+      "label": "N",
+      "pressed_image": "KeyN_dn.png",
+      "unpressed_image": "KeyN_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "0185ce24-fade-4648-9236-aefaf7d19449",
+      "input_id": {
+        "type": "Key",
+        "value": "KeyM"
+      },
+      "label": "M",
+      "pressed_image": "KeyM_dn.png",
+      "unpressed_image": "KeyM_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "a1793269-a237-482a-ab6c-5fec2e38d53f",
+      "input_id": {
+        "type": "Key",
+        "value": "Comma"
+      },
+      "label": ",",
+      "pressed_image": "Comma_dn.png",
+      "unpressed_image": "Comma_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "8131073e-7a11-4b2c-876b-b6dc4516501e",
+      "input_id": {
+        "type": "Key",
+        "value": "Dot"
+      },
+      "label": ".",
+      "pressed_image": "Dot_dn.png",
+      "unpressed_image": "Dot_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "a8f0c082-3aa7-4526-a520-e29863019dd7",
+      "input_id": {
+        "type": "Key",
+        "value": "Slash"
+      },
+      "label": "/",
+      "pressed_image": "Slash_dn.png",
+      "unpressed_image": "Slash_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "d54b6378-7f73-4393-aca6-3f305bd84ed4",
+      "input_id": {
+        "type": "Key",
+        "value": "ShiftRight"
+      },
+      "label": "SHIFT",
+      "pressed_image": "ShiftRight_dn.png",
+      "unpressed_image": "ShiftRight_up.png",
+      "width": 144,
+      "height": 64
+    },
+    {
+      "id": "6b3a694d-8399-46b4-8a5a-f25205452646",
+      "input_id": {
+        "type": "Key",
+        "value": "ControlLeft"
+      },
+      "label": "CTRL",
+      "pressed_image": "ControlLeft_dn.png",
+      "unpressed_image": "ControlLeft_up.png",
+      "width": 96,
+      "height": 64
+    },
+    {
+      "id": "1637960e-1277-41d7-9449-7a2b29449745",
+      "input_id": {
+        "type": "Key",
+        "value": "MetaLeft"
+      },
+      "label": "WIN",
+      "pressed_image": "MetaLeft_dn.png",
+      "unpressed_image": "MetaLeft_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "344188dd-a663-4d06-a9f1-9ad9df9bf89b",
+      "input_id": {
+        "type": "Key",
+        "value": "Alt"
+      },
+      "label": "ALT",
+      "pressed_image": "Alt_dn.png",
+      "unpressed_image": "Alt_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "2debba39-34b6-41d8-ae4d-0561af137659",
+      "input_id": {
+        "type": "Key",
+        "value": "Space"
+      },
+      "label": "SPACE",
+      "pressed_image": "Space_dn.png",
+      "unpressed_image": "Space_up.png",
+      "width": 320,
+      "height": 64
+    },
+    {
+      "id": "38a0d4f4-962b-44dd-8f52-39bb19558883",
+      "input_id": {
+        "type": "Key",
+        "value": "AltGr"
+      },
+      "label": "ALTGR",
+      "pressed_image": "AltGr_dn.png",
+      "unpressed_image": "AltGr_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "1caa7a41-233e-42b1-a8af-e423a64d68e5",
+      "input_id": {
+        "type": "Key",
+        "value": "MetaRight"
+      },
+      "label": "WIN",
+      "pressed_image": "MetaRight_dn.png",
+      "unpressed_image": "MetaRight_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "7d13d67c-8e58-43c9-8c7b-af1a77e4ae90",
+      "input_id": {
+        "type": "Key",
+        "value": "ControlRight"
+      },
+      "label": "CTRL",
+      "pressed_image": "ControlRight_dn.png",
+      "unpressed_image": "ControlRight_up.png",
+      "width": 96,
+      "height": 64
+    },
+    {
+      "id": "d8833fc4-033e-42a9-bcfa-991747c95870",
+      "input_id": {
+        "type": "Key",
+        "value": "PrintScreen"
+      },
+      "label": "PRTSC",
+      "pressed_image": "PrintScreen_dn.png",
+      "unpressed_image": "PrintScreen_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "b6915eed-281c-4956-afa3-6bafd406744d",
+      "input_id": {
+        "type": "Key",
+        "value": "ScrollLock"
+      },
+      "label": "SCRLK",
+      "pressed_image": "ScrollLock_dn.png",
+      "unpressed_image": "ScrollLock_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "593053e3-dec2-4450-b61a-58b77dc57ff9",
+      "input_id": {
+        "type": "Key",
+        "value": "Pause"
+      },
+      "label": "PAUSE",
+      "pressed_image": "Pause_dn.png",
+      "unpressed_image": "Pause_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "6d1f1374-dad4-41a9-8e88-effac9d1669d",
+      "input_id": {
+        "type": "Key",
+        "value": "Insert"
+      },
+      "label": "INS",
+      "pressed_image": "Insert_dn.png",
+      "unpressed_image": "Insert_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "acf23030-7ead-4227-8137-d33345540511",
+      "input_id": {
+        "type": "Key",
+        "value": "Home"
+      },
+      "label": "HOME",
+      "pressed_image": "Home_dn.png",
+      "unpressed_image": "Home_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "3223731b-84c7-495c-9f4f-5c703d088be8",
+      "input_id": {
+        "type": "Key",
+        "value": "PageUp"
+      },
+      "label": "PGUP",
+      "pressed_image": "PageUp_dn.png",
+      "unpressed_image": "PageUp_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "e93f3609-f281-4ae7-bff0-d2e9a11ec4e6",
+      "input_id": {
+        "type": "Key",
+        "value": "Delete"
+      },
+      "label": "DEL",
+      "pressed_image": "Delete_dn.png",
+      "unpressed_image": "Delete_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "2b4b5ef7-6bc6-4e44-b72e-abb33af6c83c",
+      "input_id": {
+        "type": "Key",
+        "value": "End"
+      },
+      "label": "END",
+      "pressed_image": "End_dn.png",
+      "unpressed_image": "End_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "3b2a36e2-919c-467a-9185-f24d60539591",
+      "input_id": {
+        "type": "Key",
+        "value": "PageDown"
+      },
+      "label": "PGDN",
+      "pressed_image": "PageDown_dn.png",
+      "unpressed_image": "PageDown_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "c6f9e56d-1bdf-42b0-91dc-130357697930",
+      "input_id": {
+        "type": "Key",
+        "value": "UpArrow"
+      },
+      "label": "UP",
+      "pressed_image": "UpArrow_dn.png",
+      "unpressed_image": "UpArrow_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "825c6089-89c7-4fe1-be83-6d4b755a229f",
+      "input_id": {
+        "type": "Key",
+        "value": "DownArrow"
+      },
+      "label": "DOWN",
+      "pressed_image": "DownArrow_dn.png",
+      "unpressed_image": "DownArrow_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "39e71d47-f946-435f-a1a8-5a8e45cc636d",
+      "input_id": {
+        "type": "Key",
+        "value": "LeftArrow"
+      },
+      "label": "LEFT",
+      "pressed_image": "LeftArrow_dn.png",
+      "unpressed_image": "LeftArrow_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "c8716449-4f54-40d8-b637-b3b04faaed8f",
+      "input_id": {
+        "type": "Key",
+        "value": "RightArrow"
+      },
+      "label": "RIGHT",
+      "pressed_image": "RightArrow_dn.png",
+      "unpressed_image": "RightArrow_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "1a5d8794-4b1f-4902-b18f-f710efbe8089",
+      "input_id": {
+        "type": "Key",
+        "value": "NumLock"
+      },
+      "label": "NUMLK",
+      "pressed_image": "NumLock_dn.png",
+      "unpressed_image": "NumLock_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "c17a1aaf-af32-4f80-a86d-d40b2a8f4448",
+      "input_id": {
+        "type": "Key",
+        "value": "KpDivide"
+      },
+      "label": "N/",
+      "pressed_image": "KpDivide_dn.png",
+      "unpressed_image": "KpDivide_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "700b0b50-4b70-4329-a09b-778743734311",
+      "input_id": {
+        "type": "Key",
+        "value": "KpMultiply"
+      },
+      "label": "N*",
+      "pressed_image": "KpMultiply_dn.png",
+      "unpressed_image": "KpMultiply_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "d5493e28-007c-4dd8-8e29-9812e9a2d219",
+      "input_id": {
+        "type": "Key",
+        "value": "KpMinus"
+      },
+      "label": "N-",
+      "pressed_image": "KpMinus_dn.png",
+      "unpressed_image": "KpMinus_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "ec6c2aec-c7f5-4505-88b8-6371e875fa60",
+      "input_id": {
+        "type": "Key",
+        "value": "Kp7"
+      },
+      "label": "N7",
+      "pressed_image": "Kp7_dn.png",
+      "unpressed_image": "Kp7_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "a80c5df0-d745-4040-9803-7dd085c5c7cf",
+      "input_id": {
+        "type": "Key",
+        "value": "Kp8"
+      },
+      "label": "N8",
+      "pressed_image": "Kp8_dn.png",
+      "unpressed_image": "Kp8_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "ce0bca9a-4a3e-49be-ad3a-f78a6f952cdb",
+      "input_id": {
+        "type": "Key",
+        "value": "Kp9"
+      },
+      "label": "N9",
+      "pressed_image": "Kp9_dn.png",
+      "unpressed_image": "Kp9_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "b501e676-0d4c-4cda-8741-44950c4e11a4",
+      "input_id": {
+        "type": "Key",
+        "value": "KpPlus"
+      },
+      "label": "N+",
+      "pressed_image": "KpPlus_dn.png",
+      "unpressed_image": "KpPlus_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "77ab5806-9cd1-45bc-8c06-6ad869b99d1d",
+      "input_id": {
+        "type": "Key",
+        "value": "Kp4"
+      },
+      "label": "N4",
+      "pressed_image": "Kp4_dn.png",
+      "unpressed_image": "Kp4_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "e609bba2-ef9c-4df5-8b16-6fb56501534d",
+      "input_id": {
+        "type": "Key",
+        "value": "Kp5"
+      },
+      "label": "N5",
+      "pressed_image": "Kp5_dn.png",
+      "unpressed_image": "Kp5_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "e8eaed37-3e99-49ff-b615-8f9e5265d8d3",
+      "input_id": {
+        "type": "Key",
+        "value": "Kp6"
+      },
+      "label": "N6",
+      "pressed_image": "Kp6_dn.png",
+      "unpressed_image": "Kp6_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "c8d2e470-5789-4d05-a49f-2218c1a2e519",
+      "input_id": {
+        "type": "Key",
+        "value": "Kp1"
+      },
+      "label": "N1",
+      "pressed_image": "Kp1_dn.png",
+      "unpressed_image": "Kp1_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "9b84d184-df76-4ec0-967e-d1f3991bc8c8",
+      "input_id": {
+        "type": "Key",
+        "value": "Kp2"
+      },
+      "label": "N2",
+      "pressed_image": "Kp2_dn.png",
+      "unpressed_image": "Kp2_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "0d17c246-013b-4674-8da8-8227e6c9ad7a",
+      "input_id": {
+        "type": "Key",
+        "value": "Kp3"
+      },
+      "label": "N3",
+      "pressed_image": "Kp3_dn.png",
+      "unpressed_image": "Kp3_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "b922a8f3-c9be-4d21-916a-beee047a79c2",
+      "input_id": {
+        "type": "Key",
+        "value": "KpReturn"
+      },
+      "label": "NENT",
+      "pressed_image": "KpReturn_dn.png",
+      "unpressed_image": "KpReturn_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "35fbc3de-3f07-4916-a222-efc783dcf74a",
+      "input_id": {
+        "type": "Key",
+        "value": "Kp0"
+      },
+      "label": "N0",
+      "pressed_image": "Kp0_dn.png",
+      "unpressed_image": "Kp0_up.png",
+      "width": 128,
+      "height": 64
+    },
+    {
+      "id": "6aa853b6-f7b6-4b35-a73c-4e156947ee9e",
+      "input_id": {
+        "type": "Key",
+        "value": "KpDelete"
+      },
+      "label": "N.",
+      "pressed_image": "KpDelete_dn.png",
+      "unpressed_image": "KpDelete_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "628136c8-9e03-42b0-8236-7c5a8adeb3bf",
+      "input_id": {
+        "type": "MouseButton",
+        "value": "ButtonLeft"
+      },
+      "label": "LMB",
+      "pressed_image": "ButtonLeft_dn.png",
+      "unpressed_image": "ButtonLeft_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "66fb9d9a-f560-4954-8d36-2e960c6f5e37",
+      "input_id": {
+        "type": "MouseButton",
+        "value": "ButtonRight"
+      },
+      "label": "RMB",
+      "pressed_image": "ButtonRight_dn.png",
+      "unpressed_image": "ButtonRight_up.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "ba294f9c-2475-487c-9dbe-2cda7997a8e3",
+      "input_id": {
+        "type": "MouseButton",
+        "value": "ButtonMiddle"
+      },
+      "label": "MMB",
+      "pressed_image": "ButtonMiddle_dn.png",
+      "unpressed_image": "ButtonMiddle_up.png",
+      "width": 64,
+      "height": 64
+    }
+  ],
+  "source_images": []
+}
