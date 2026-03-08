@@ -192,12 +192,18 @@ def validate_atlas(name: str):
                     f"with 'filename' field (got {json.dumps(si)})"
                 )
 
-    # Check referenced images exist
+    # Check referenced images exist and find orphans
     if os.path.isdir(images_dir):
         existing_images = set(os.listdir(images_dir))
         for img in referenced_images:
             if img not in existing_images:
                 error(f"{name}: Referenced image '{img}' not found in images/")
+        orphans = existing_images - referenced_images
+        for img in sorted(orphans):
+            error(
+                f"{name}: Orphan image '{img}' in images/ is not referenced "
+                f"by any entry or source_images"
+            )
 
     # Total size check
     total_size = 0
