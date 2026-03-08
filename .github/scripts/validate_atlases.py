@@ -22,6 +22,62 @@ def error(msg: str):
     print(f"::error::{msg}")
 
 
+def _check_path_traversal(name: str, field: str, filename: str):
+    if ".." in filename or filename.startswith("/") or ":" in filename:
+        error(
+            f"{name}: {field} contains "
+            f"path traversal or absolute path: '{filename}'"
+        )
+
+
+def _validate_image_ref(
+    name: str, entry_idx: int, field: str, img
+) -> str | None:
+    """Validate an image reference (string or sprite rect object).
+
+    Returns the referenced filename if valid, None otherwise.
+    """
+    if isinstance(img, str):
+        if img:
+            _check_path_traversal(name, f"entries[{entry_idx}].{field}", img)
+            return img
+        return None
+    elif isinstance(img, dict):
+        # Sprite rect: {source, x, y, w, h}
+        source = img.get("source")
+        if not isinstance(source, str) or not source:
+            error(
+                f"{name}: entries[{entry_idx}].{field} rect must have "
+                f"a non-empty 'source' string"
+            )
+            return None
+        for coord in ["x", "y", "w", "h"]:
+            val = img.get(coord)
+            if not isinstance(val, (int, float)) or val < 0:
+                error(
+                    f"{name}: entries[{entry_idx}].{field}.{coord} must be "
+                    f"a non-negative number (got {val!r})"
+                )
+        _check_path_traversal(name, f"entries[{entry_idx}].{field}.source", source)
+        return source
+    elif img is not None:
+        error(
+            f"{name}: entries[{entry_idx}].{field} must be a string or "
+            f"sprite rect object (got {type(img).__name__})"
+        )
+    return None
+
+
+def _get_source_image_filename(si) -> str | None:
+    """Extract filename from a source_images entry (string or object)."""
+    if isinstance(si, str):
+        return si if si else None
+    elif isinstance(si, dict):
+        filename = si.get("filename")
+        return filename if isinstance(filename, str) and filename else None
+    return None
+
+
 def validate_atlas(name: str):
     atlas_dir = os.path.join(ATLASES_DIR, name)
 
@@ -118,14 +174,23 @@ def validate_atlas(name: str):
 
         for img_field in ["pressed_image", "unpressed_image"]:
             img = entry.get(img_field, "")
-            if img:
-                referenced_images.add(img)
-                # Path traversal check
-                if ".." in img or img.startswith("/") or ":" in img:
-                    error(
-                        f"{name}: entries[{i}].{img_field} contains "
-                        f"path traversal or absolute path: '{img}'"
-                    )
+            img_filename = _validate_image_ref(name, i, img_field, img)
+            if img_filename:
+                referenced_images.add(img_filename)
+
+    # Validate source_images (can be strings or objects with metadata)
+    source_images = atlas.get("source_images", [])
+    if isinstance(source_images, list):
+        for si in source_images:
+            si_filename = _get_source_image_filename(si)
+            if si_filename:
+                referenced_images.add(si_filename)
+                _check_path_traversal(name, "source_images", si_filename)
+            else:
+                error(
+                    f"{name}: source_images entry must be a string or object "
+                    f"with 'filename' field (got {json.dumps(si)})"
+                )
 
     # Check referenced images exist
     if os.path.isdir(images_dir):
